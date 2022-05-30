@@ -45,8 +45,3 @@ jobs:
         cd my-app
         npm start &
         npx wait-on --timeout 60000
-      
-      
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm test
